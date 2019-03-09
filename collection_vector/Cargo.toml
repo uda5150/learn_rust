@@ -1,0 +1,7 @@
+[package]
+name = "collection_vector"
+version = "0.1.0"
+authors = ["uda5150 <tks.udagawa@gmail.com>"]
+edition = "2018"
+
+[dependencies]
