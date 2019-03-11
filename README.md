@@ -2,6 +2,12 @@
 Rust学習量ディレクトリ  
 参考：[プログラミング言語 Rust, 2nd Edition](https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/) 
 
+## 終わったら実装してみるもの
+- lsコマンド
+- redditのr/programmingのポストをfetchとsaveするコマンド
+- ディレクトリをJSONに変換するコマンド
+- JSONからディレクトリを作成するコマンド
+
 ## コマンド類
 - PJT作成
     - cargo new hogehoge
@@ -263,4 +269,10 @@ Rust学習量ディレクトリ
   - 同じ型しか保持できない
   - forループでは、可変参照が参照している値を変更するには、参照外し（*）が必要
   - 服薄の型を入れる場合はEnumを使う
+  - Vec(T) APIドキュメント
+    - https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/std/vec/struct.Vec.html
+- 文字列
+  - 文字列とはStringと文字列スライスの&strを指す
+  - https://doc.rust-lang.org/std/string/struct.String.html
+
 
