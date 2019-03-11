@@ -7,6 +7,13 @@ Rust学習量ディレクトリ
 - redditのr/programmingのポストをfetchとsaveするコマンド
 - ディレクトリをJSONに変換するコマンド
 - JSONからディレクトリを作成するコマンド
+- togglのコマンド実装
+- slackのコマンド実装
+- コンパイラ
+- OS
+- 軽量フレームワークを作る
+  - Flaskとか？
+  - ブログ用のFWとか？
 
 ## コマンド類
 - PJT作成
