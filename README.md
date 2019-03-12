@@ -271,15 +271,23 @@ Rust学習量ディレクトリ
 
 ### 8章（コレクション）
 - vector（ベクタ）
+  - Vec(T) APIドキュメント
+    - https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/std/vec/struct.Vec.html
   - .get(添字)でベクタの終端を超えて要素にアクセスするとNoneを返す
   - パニックを起こさせたいときは[]
   - 同じ型しか保持できない
   - forループでは、可変参照が参照している値を変更するには、参照外し（*）が必要
   - 服薄の型を入れる場合はEnumを使う
-  - Vec(T) APIドキュメント
-    - https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/std/vec/struct.Vec.html
+
 - 文字列
+  - APIドキュメント
+    - https://doc.rust-lang.org/std/string/struct.String.html
   - 文字列とはStringと文字列スライスの&strを指す
-  - https://doc.rust-lang.org/std/string/struct.String.html
+  - 生成
+    - "test".to_string or String::from("test")
+
+
+#### メモ
+- 文字列リテラルってなんだっけ・・・
 
 
