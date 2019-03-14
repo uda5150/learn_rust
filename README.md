@@ -288,6 +288,15 @@ Rust学習量ディレクトリ
     - "test".to_string or String::from("test")
   - 更新
     - "test".push_str("xxx")
+  - 添字へのアクセスはできない
+    - Rustがメモリにどのように文字列を保持しているかを知る必要がある
+  - 内部表現
+  - 文字列をスライスする
+    - UTF8は.chars()で分解して取得する
+    - バイトの値を入力して、値を取得する
+- ハッシュマップ
+  - APIドキュメント
+    - https://doc.rust-lang.org/std/collections/struct.HashMap.html
   - 
 
 #### メモ
