@@ -297,7 +297,10 @@ Rust学習量ディレクトリ
 - ハッシュマップ
   - APIドキュメント
     - https://doc.rust-lang.org/std/collections/struct.HashMap.html
-  - 
+  - 取り出した結果はSomeに包まれる
+    - Optionを扱う形になる
+  - 値の更新
+    - 
 
 #### メモ
 - 文字列リテラルってなんだっけ・・・
